@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+ *{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+ }
+body{
+margin: 0;
+font-family: 'poppins', sans-serif;
+background:linear-gradient(-45deg,red,green,yellow,blue);
+        background-size: 600% 600%;
+        z-index: 1;
+}
+a{
+outline: none;
+text-decoration: none;
+transition: 0.3s;
+}
+h2{
+margin: 0;
+padding: 0;
+font-family: poppins, sans-serif;
+margin-bottom: 20px;
+}
+p{
+margin: 0;
+padding: 0;
+}
+.pricing-table-title{
+position: relative;
+width: 100%;
+text-align: center;
+margin: 60px 0 15px 0;
+}
+.pricing-table-title:first-child{
+margin-top: 30px;
+}
+.pricing-table-title h2{
+font-size: 35px;
+font-weight: 900;
+color: gold;
+letter-spacing: 2px;
+}
+.pricing-table{
+display: flex;
+flex-flow: row wrap;
+width: 100%;
+max-width: 1100px;
+margin: 0 auto;
+}
+.pricing-table .ptable-item{
+width: 33.33%;
+padding: 15px;
+}
+.pricing-table .ptable-single{
+position: relative;
+width: 100%;
+overflow: hidden;
+}
+.pricing-table .ptable-header,
+.pricing-table .ptable-body,
+.pricing-table .ptable-footer {
+position: relative;
+width: 100%;
+text-align: center;
+background:#ffffff ;
+overflow: hidden;
+}
+.pricing-table .ptable-title,
+.pricing-table .ptable-price,
+.pricing-table .ptable-description,
+.pricing-table .ptable-action{
+position: relative;
+width: 100%;
+text-align: center;
+}
+.pricing-table.table .ptable-single:hover{
+box-shadow: 0 0 10px #999999;
+}
+.pricing-table.table .ptable-header{
+padding: 30px 0 50px 0;
+background: #d909a5;
+}
+.pricing-table.table .ptable-item.featured-item .ptable-header{
+background: #8400db;
+}
+.pricing-table.table .ptable-icon{
+margin-bottom: 15px;
+}
+.pricing-table.table .ptable-icon i{
+display: inline-block;
+color: #ffffff;
+font-size: 45px;
+}
+.pricing-table.table .ptable-title h2{
+color: #ffffff;
+font-size: 24px;
+font-weight: 300;
+margin-left: 2px;
+}
+.pricing-table.table .ptable-price h2{
+color: #ffffff;
+font-size: 60px;
+font-weight: 900;
+margin-left: 15px;
+}
+.pricing-table.table .ptable-price h2 small{
+position: absolute;
+font-size: 18px;
+font-weight: 900;
+margin-left: -15px;
+margin-top: 16px;
+}
+.pricing-table.table .ptable-price h2 span{
+font-size: 16px;
+font-weight: 300;
+margin-left: 3px;
+}
+.pricing-table.table .ptable-body{
+padding: 30px 0;
+background: #f7f7f7;
+border-radius: 30px 30px 0 0;
+margin-top: -30px;
+}
+.pricing-table.table .ptable-description ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.pricing-table.table .ptable-description ul li{
+color: #dbb700;
+font-size: 14px;
+font-weight: 300;
+letter-spacing: 1px;
+padding: 7px;
+}
+.pricing-table.table .ptable-description ul li:last-child{
+border: none;
+}
+.pricing-table.table .ptable-footer{
+padding-bottom: 30px;
+background: #f7f7f7;
+}
+.pricing-table.table .ptable-action a{
+display: inline-block ;
+padding: 10px 20px;
+font-family: poppins;
+color: #ffffff;
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 2px;
+background: #d909a5;
+border-radius: 50px;
+}
+.pricing-table.table .ptable-action a i{
+margin-right: 5px;
+}
+.pricing-table.table .ptable-action a:hover{
+background: #8400db;
+}
+.pricing-table.table .ptable-item.featured-item .ptable-action a{
+background: #8400db;
+}
+.pricing-table.table .ptable-item.featured-item .ptable-action a:hover{
+background: #d909a5;
+}
+img{
+    width: 50%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="pricing-table-title">
+        <h2>Mentors</h2>
+    </div>
+    <div class="pricing-table table">
+
+<div class="ptable-item">
+<div class="ptable-single">
+
+<div class="ptable-header">
+<div class="ptable-icon">
+<i class="fa fa-home"></i>
+</div>
+<div class="ptable-title">
+<h2>Soft skills</h2>
+<img src="soft.jpg" >
+</div>
+<div class="ptable-price">
+</div>
+</div>
+
+<div class="ptable-body">
+<div class="ptable-description">
+<ul>
+<li>Active Listening</li>
+<li>Problem Solving</li>
+<li>Time management</li>
+<li>Critical thinking</li>
+<li>Teamwork</li>
+<li>Leadership</li>
+</ul>
+</div>
+</div>
+
+<div class="ptable-footer">
+<div class="ptable-action">
+<a href="#"><i class="fa fa-shopping-cart"></i>Check Out</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="ptable-item featured-item">
+<div class="ptable-single">
+
+<div class="ptable-header">
+<div class="ptable-icon">
+<i class="fa fa-star"></i>
+</div>
+<div class="ptable-title">
+<h2>Coding
+</h2>
+<img  src="coding.jpg" >
+</div>
+<div class="ptable-price">
+</div>
+</div>
+
+<div class="ptable-body">
+<div class="ptable-description">
+<ul>
+<li>Data structures</li>
+<li>Object-oriented programming</li>
+<li>Debugging</li>
+<li>Troubleshooting</li>
+<li>Logical thinking</li>
+<li>Easy to use</li>
+</ul>
+</div>
+</div>
+
+<div class="ptable-footer">
+<div class="ptable-action">
+<a href="#"><i class="fa fa-shopping-cart"></i>Check Out</a>
+</div>
+</div>
+</div>
+</div>
+
+<div class="ptable-item">
+<div class="ptable-single">
+
+<div class="ptable-header">
+<div class="ptable-icon">
+<i class="fa fa-gift"></i>
+</div>
+<div class="ptable-title">
+<h2>Aptitude</h2>
+<img  src="black.png" >
+</div>
+<div class="ptable-price">
+
+</div>
+</div>
+
+<div class="ptable-body">
+<div class="ptable-description">
+<ul>
+<li>Problem solving</li>
+<li>verbal communication</li>
+<li>Non-verbal communication</li>
+<li>Blood relations</li>
+<li>Reasoning</li>
+<li>Patterns</li>
+</ul>
+</div>
+</div>
+<div class="ptable-footer">
+<div class="ptable-action">
+<a href="#"><i class="fa fa-shopping-cart"></i>Check Out
+</a>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+</body>
+</html>
